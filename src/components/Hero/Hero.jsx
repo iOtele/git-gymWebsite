@@ -38,7 +38,8 @@ const Hero = () => {
         <span>Your</span>
       </div>
       <div>
-        <span>Ideal body</span>
+        <span>Ideal </span>
+        <span className='stroke-text'>body</span>
       </div>
       <div>
         <span>
@@ -76,8 +77,8 @@ const Hero = () => {
           to='testimonials'>Join Now</Link></button>
 
       <motion.div className="heart-rate"
-      initial = {{right:'-1rem'}}
-      whileInView = {{right:'4rem'}}
+      initial = {{right:'-3rem'}}
+      whileInView = {{right:'12rem'}}
       transition={transition}
       >
       <img src={Heart} alt="" />

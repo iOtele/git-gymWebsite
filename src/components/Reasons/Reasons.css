@@ -7,10 +7,11 @@
 .left-r{
     flex: 1 1;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 1rem; 
     grid-auto-rows: 1fr;
-        
+    margin-left: 7rem;
+           
 }
 .number{
     display: inline-block;

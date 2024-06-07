@@ -11,30 +11,11 @@ export const plansData = [
       </svg>
     ),
     name: "BASIC PLAN",
-    price: "25",
+    price: "25,000",
     features: [
       "2 hours of excercises",
       "Free consultaion to coaches",
       "Access to The Community",
-    ],
-  },
-  {
-    icon: (
-      <svg
-        width="28"
-        height="24"
-        viewBox="0 0 28 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path d="M3.11111 18L0 1.5L8.55556 9L14 0L19.4444 9L28 1.5L24.8889 18H3.11111ZM24.8889 22.5C24.8889 23.4 24.2667 24 23.3333 24H4.66667C3.73333 24 3.11111 23.4 3.11111 22.5V21H24.8889V22.5Z" />
-      </svg>
-    ),
-    name: "PREMIUM PLAN",
-    price: "30",
-    features: [
-      "5 hour of excercises",
-      "Free consultaion of Coaches",
-      "Accessto minibar",
     ],
   },
   {
@@ -49,11 +30,31 @@ export const plansData = [
       </svg>
     ),
     name: "PRO PLAN",
-    price: "45",
+    price: "45,000",
     features: [
       "8 hours of excercises",
       "Consultation of Private Coach",
       "Free Fitness Merchandises",
     ],
   },
+  {
+    icon: (
+      <svg
+        width="28"
+        height="24"
+        viewBox="0 0 28 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M3.11111 18L0 1.5L8.55556 9L14 0L19.4444 9L28 1.5L24.8889 18H3.11111ZM24.8889 22.5C24.8889 23.4 24.2667 24 23.3333 24H4.66667C3.73333 24 3.11111 23.4 3.11111 22.5V21H24.8889V22.5Z" />
+      </svg>
+    ),
+    name: "PREMIUM PLAN",
+    price: "30,000",
+    features: [
+      "5 hour of excercises",
+      "Free consultaion of Coaches",
+      "Accessto minibar",
+    ],
+  },
+ 
 ];

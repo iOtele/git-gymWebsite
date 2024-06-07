@@ -11,6 +11,7 @@
     flex-direction: column;
     text-transform: uppercase;
     color: whitesmoke;
+    padding-left: 7rem;
 }
 .left-t>:nth-child(1){
     color: var(--orange);
@@ -33,6 +34,7 @@
 .right-t{
     flex: 1;
     position: relative;
+    margin-right: 7rem;
 }
 
 .right-t>img{
@@ -42,6 +44,7 @@
     object-fit: cover;
     right: 8rem;
     top: 2rem;
+    
 }
 .right-t>:nth-child(1){
     position: absolute;

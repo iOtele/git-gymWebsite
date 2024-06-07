@@ -1,9 +1,9 @@
 /* make variables */
 :root {
-  --lightgray: #D9D9D9;
-  --gray: #9c9c9c;
-  --orange: #0fd640;
-  --darkGrey: #323436;
+  --lightgray: #c7c7c7;
+  --gray: #b9b9b9;
+  --orange: #c99a34;
+  --darkGrey: #242525;
   --caloryCard: #656565;
   --planCard: linear-gradient(210.41deg, #2b1816 1.14%, #ffa739 100.75%);
   --appColor:  #3c3f45;
