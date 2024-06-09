@@ -40,7 +40,7 @@ const Header = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          to='reasons'>Why Us</Link></li>
+          to='reasons'>Choosing Us</Link></li>
           <li><Link onClick={()=>setMenuOpened(false)}
           activeClass="active"
           spy={true}
