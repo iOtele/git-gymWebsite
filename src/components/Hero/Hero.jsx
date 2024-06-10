@@ -75,9 +75,9 @@ const Hero = () => {
         
         <button className="btn">
           <Link
-            onClick={() => setMenuOpened(false)}
+            onClick={() => setMenuOpened(menuOpened)}
             activeClass="active"
-            spy={true}
+            span={true}
             smooth={true}
             to="testimonials"
           >
