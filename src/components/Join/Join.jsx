@@ -8,15 +8,7 @@ const Join = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        const emailMessage = document.getElementById('email');
-        const message = document.getElementById('emailPrompt');
-
-        if(emailMessage.value === ''){
-          emailMessage.classList.add('red')
-
-
-        }
-        emailjs
+         emailjs
           .sendForm('service_0hhuvwg', 'template_ef47v3f', form.current, {
             publicKey: 'dihIrGB5RBykDXJVh',
           })
